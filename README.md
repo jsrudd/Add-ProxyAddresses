@@ -37,3 +37,5 @@ Alias not found. Adding (newaddress@email.org)...
 * Verificaiton of users existence is only rudamentarily implemented. Will generate an error, but won't change anything.
 * No confirmation that the right user is selected; it's assumed the username is known and correct
 * No validation on the email address provided to ensure it's a valid email address
+* No validation checking on the existence of a primary email address field (mail)
+* Needs to be able to update the Primary SMTP: ProxyAddress without a specified email address
