@@ -10,7 +10,7 @@ Manages Proxy Addresses (email aliases) for Domain Synchronised Office365 users 
 
 ### Using User Principal Name
 ```
-.\Add-ProxyAddress.ps1 -Username User@principalname -EmailAddress newaddress@email.org
+.\Add-ProxyAddress.ps1 -Username user@principalname.com -EmailAddress newaddress@email.org
 ```
 
 ## Issues
